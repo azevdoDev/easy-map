@@ -1,50 +1,115 @@
-# Welcome to your Expo app 👋
+# 🗺️ Easy Map
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Easy Map é um aplicativo mobile desenvolvido em **React Native com Expo** que ajuda o usuário a descobrir **o que está acontecendo por perto**, como **festas, bares, eventos e pontos de interesse**, tudo de forma simples, visual e intuitiva.
 
-## Get started
+O objetivo do app é centralizar informações locais em tempo real, facilitando a tomada de decisão de *onde ir agora*.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## 🚀 Visão Geral
 
-2. Start the app
+Com o Easy Map, o usuário pode:
 
-   ```bash
-   npx expo start
-   ```
+* Descobrir **festas, bares e eventos próximos**
+* Visualizar opções com base na **localização atual**
+* Navegar por uma interface moderna e fluida
+* Ter uma experiência rápida, pensada para uso mobile
 
-In the output, you'll find options to open the app in a
+O projeto foi criado com foco em **aprendizado prático**, boas práticas de mobile e integração frontend/backend.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 🛠️ Tecnologias Utilizadas
 
-## Get a fresh project
+* **React Native**
+* **Expo (SDK 54)**
+* **Expo Router**
+* **JavaScript / TypeScript**
+* **APIs REST**
+* **Git & GitHub**
 
-When you're ready, run:
+---
 
-```bash
-npm run reset-project
+## 📱 Funcionalidades (em desenvolvimento)
+
+* 📍 Detecção de localização do usuário
+* 🍻 Listagem de bares, festas e eventos próximos
+* 🗺️ Visualização baseada em mapa
+* 🔐 Fluxos básicos de autenticação
+* ❤️ Favoritar locais e eventos
+* 🎨 Interface focada em UX/UI
+
+---
+
+## 📂 Estrutura do Projeto
+
+```
+/app
+  ├── (tabs)
+  ├── index.tsx
+  ├── map.tsx
+/components
+/services
+/hooks
+/assets
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+## ▶️ Como Rodar o Projeto
 
-To learn more about developing your project with Expo, look at the following resources:
+### Pré-requisitos
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+* Node.js
+* Expo CLI
+* Expo Go (Android ou iOS)
 
-## Join the community
+### Passos
 
-Join our community of developers creating universal apps.
+```bash
+# Clone o repositório
+git clone https://github.com/azevdoDev/easy-map.git
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+# Acesse a pasta do projeto
+cd easy-map
+
+# Instale as dependências
+npm install
+
+# Inicie o projeto
+npx expo start
+```
+
+Abra o app no **Expo Go** ou em um emulador.
+
+---
+
+## 🎯 Objetivo do Projeto
+
+Este projeto tem como foco:
+
+* Aprendizado em **React Native e Expo**
+* Consumo de **APIs REST**
+* Boas práticas iniciais de desenvolvimento mobile
+* Criação de um app com proposta real de mercado
+
+---
+
+## 👨‍💻 Autor
+
+Desenvolvido por **Matheus Azevedo**
+
+* GitHub: [https://github.com/azevdoDev](https://github.com/azevdoDev)
+* LinkedIn: [https://www.linkedin.com](https://www.linkedin.com)
+
+---
+
+## 📌 Status do Projeto
+
+🚧 Em desenvolvimento
+
+Novas funcionalidades e melhorias estão sendo implementadas continuamente.
+
+---
+
+Se você gostou da ideia, deixe uma ⭐ no repositório!
